@@ -1,0 +1,21 @@
+Запуск программы (Windows 10)
+
+1) Открыть PowerShell в папке RegistryApp3
+   (Shift + ПКМ по папке -> "Открыть окно PowerShell здесь")
+
+2) Создать виртуальное окружение:
+   python -m venv venv
+
+3) Разрешить запуск activate (один раз):
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+4) Активировать окружение:
+   .\venv\Scripts\Activate.ps1
+
+5) Установить зависимости:
+   pip install -r requirements.txt
+
+6) Запуск:
+   python -m app.main
+
+Если при запуске всё равно ругается на модули — убедитесь, что в консоли слева есть (venv).
