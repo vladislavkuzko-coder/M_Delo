@@ -1,0 +1,75 @@
+{
+  "theme": {
+    "name": "light"
+  },
+  "app": {
+    "title": "Меридиан.Дело",
+    "short_title": "М-Дело"
+  },
+  "map": {
+    "mode": "online",
+    "pbf": "maps\\country.pbf",
+    "shp_layers": [],
+    "mbtiles": "",
+    "pmtiles": "maps\\offline_vector.pmtiles"
+  },
+  "sync": {
+    "enabled": false,
+    "source_dir": "C:\\Users\\Kuzko\\Desktop\\Registry_fixed57_offline_marker_buildings",
+    "mirror_dir": "",
+    "period_minutes": 0,
+    "allow_admin_edit_anywhere": false
+  },
+  "control_filters": {
+    "status": [
+      "ДЕЙСТВУЮЩИЙ"
+    ],
+    "days_ahead": 45
+  },
+  "tables": {
+    "dict::executor": {
+      "ID": 100,
+      "Значение": 100,
+      "Активен": 620
+    }
+  },
+  "recent": [],
+  "last_db_backup_date": "2026-02-28",
+  "numbering": {
+    "in_dept": {
+      "enabled": true,
+      "prefix": "17.07-3/",
+      "suffix": "-{yy}",
+      "pad": 0,
+      "reset_per_year": true
+    },
+    "out_doc": {
+      "enabled": true,
+      "prefix": "17.07-3/",
+      "suffix": "-{yy}",
+      "pad": 0,
+      "reset_per_year": true
+    },
+    "internal_doc": {
+      "enabled": true,
+      "prefix": "17.07-3/",
+      "suffix": "-{yy}",
+      "pad": 0,
+      "reset_per_year": true
+    }
+  },
+  "user_executor_map": {},
+  "last_login": "admin",
+  "control": {
+    "stalled_statuses": []
+  },
+  "ui": {
+    "main_window_geometry": {
+      "x": 260,
+      "y": 110,
+      "w": 1400,
+      "h": 820
+    },
+    "sidebar_collapsed": false
+  }
+}
